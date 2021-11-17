@@ -1,3 +1,5 @@
+import React from 'react'
+
 class Cell extends React.Component {
     getValue() {
       const {value} = this.props;

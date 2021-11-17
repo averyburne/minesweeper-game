@@ -1,3 +1,5 @@
+import React from 'react'
+
 class Board extends React.Component {
     state = {
       boardData: this.initBoardData(this.props.height, this.props.width, this.props.mines),

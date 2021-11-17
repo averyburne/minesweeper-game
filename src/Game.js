@@ -1,3 +1,5 @@
+import React from 'react'
+
 class Game extends React.Component {
     state = {
       height: 8,
